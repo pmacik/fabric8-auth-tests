@@ -37,7 +37,6 @@
        - choice:
            name: SLAVES
            choices:
-              - '3'
               - '10'
               - '9'
               - '8'
@@ -45,6 +44,7 @@
               - '6'
               - '5'
               - '4'
+              - '3'
               - '2'
               - '1'
            description: A number of Locust slaves to use.
@@ -54,15 +54,15 @@
            description: A prefix for a Locust slave node address.
        - string:
            name: USERS
-           default: '3'
+           default: '10'
            description: A number of users to swawn.
        - string:
            name: USER_HATCH_RATE
-           default: '3'
+           default: '10'
            description: A hatch rate (number of users to spawn per second).
        - string:
            name: DURATION
-           default: '60'
+           default: '300'
            description: A number of seconds for how long the load test should run.
        - bool:
            name: ZABBIX_REPORT_ENABLED

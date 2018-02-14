@@ -51,7 +51,7 @@ else
 export USERS_PROPERTIES=\"`cat $USERS_PROPERTIES_FILE`\"
 " > $ENV_FILE-master;
 fi
- exit 0
+
 echo " Prepare locustfile template"
 ./_prepare-locustfile.sh auth-user-login.py
 

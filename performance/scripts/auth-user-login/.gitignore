@@ -1,0 +1,6 @@
+osioperf.py
+*.env
+*report.md
+*results.md
+*report.html
+common.git

@@ -14,7 +14,7 @@
     parameters:
        - bool:
            name: RUN_LOCALLY
-           default: true
+           default: false
            description: '"true" if locust test is to be run locally (i.e. no master, no slaves, no remote execution).'
        - choice:
            name: SERVER_SCHEME
